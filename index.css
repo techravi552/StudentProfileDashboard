@@ -40,11 +40,11 @@ width: 60px;
 height: 50px;
 }
 footer{
-width: 90%;
+width: 98%;
 height: 200px;
 background-color: rgb(53, 45, 45);
 color: white;
-padding: 40px;
+/* padding: 40px; */
 display: flex;
 margin-left: 13px;
 
@@ -75,8 +75,24 @@ text-align: center;
 #view-student{
 width: 100%;
 height: auto;
-padding: 40px;
-border: 1px solid black;
+/* padding: 40px; */
+/* border: 1px solid black; */
 background-color: blue;
 color: white;
+margin-top: 30px;
+margin-bottom: 30px;
 }
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    
+  }
+  tr{
+    background-color: aliceblue;
+    color: black;
+    height: 50px;
+  }
+  th{
+    background-color: blueviolet;
+  }
